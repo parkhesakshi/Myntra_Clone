@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 a{
       text-decoration: none;
@@ -10,8 +13,9 @@ a{
 #header{
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 80px;
     width: 100%;
+    padding: 10px;
 }
 #header .brand{
     width: fit-content;
@@ -24,18 +28,29 @@ a{
 #header .nav_list{
     display: flex;
     width: 100%;
+    margin-left: 30px;
 }
 #header .nav_list.secondary-list{
-    display: flex;
     justify-self: flex-end;
-    justify-content: flex-end;
     width: 100%;
 }
 #header .nav_link{
     margin: 20px;
     list-style: none;
-    fo
-
 }
-
+#header .nav_link.searchbar{
+    position: relative;
+}
+#header .nav_link i{
+    position: absolute;
+    top: 0;
+}
+#header .nav_link a{
+    color: black;
+    font-size: 1.2rem;
+}
+#header .nav_list li input{
+    padding: 10px 10px 10px 40px;
+    width: 400px;
+}
 /* Header End */
