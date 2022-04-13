@@ -27,15 +27,22 @@ a{
 }
 #header .nav_list.secondary-list{
     display: flex;
-    justify-self: flex-end;
     justify-content: flex-end;
     width: 100%;
 }
 #header .nav_link{
     margin: 20px;
     list-style: none;
-    fo
-
+}
+#header .nav_link.searchbar{
+    position: relative;
+}
+#header .nav_link i{
+    position: absolute;
+}
+#header .nav_list li input{
+    padding: 10px 1px 10px 30px;
+    width: 450px;
 }
 
 /* Header End */
