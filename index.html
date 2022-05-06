@@ -42,7 +42,44 @@
 
     <!-- Hero section -->
     <section id="hero">
-      <img src="./images/hero.png" alt="Hero_Img" />
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <img src="./images/hero/img1.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/hero/img2.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/hero/img3.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/hero/img4.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/hero/img5.webp" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="./images/hero/img6.webp" style="width: 100%" />
+        </div>
+
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
     </section>
 
     <!-- Deal of teh day section -->
@@ -217,5 +254,7 @@
         <img src="./images/gifting_cards/img5.webp" alt="" class="gift_card" />
       </div>
     </section>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>

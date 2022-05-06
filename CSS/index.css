@@ -72,7 +72,7 @@ a {
 }
 #header .header_link a {
   color: black;
-  font-size: .9rem;
+  font-size: 0.9rem;
   padding: 15px;
   transition: all 0.3s;
 }
@@ -94,13 +94,41 @@ a {
 /* Header End */
 
 /* Hero */
-#hero {
-  height: 500px;
-  width: 100%;
-  padding: 40px;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
-#hero img {
-  width: 100%;
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  outline: none;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 /* Hero End */
 
@@ -123,32 +151,31 @@ a {
 /* Deal of the day end */
 
 /* Categories to bag */
-.categories_to_bag .categories{
+.categories_to_bag .categories {
   display: flex;
   flex-wrap: wrap;
-
 }
-.categories_to_bag .categories .categories_img{
+.categories_to_bag .categories .categories_img {
   height: 230px;
 }
 /* Categories to bag end */
 
 /* Myntra luxe */
-.myntra_luxe .myntra_luxe{
+.myntra_luxe .myntra_luxe {
   display: flex;
   flex-wrap: wrap;
 }
-.myntra_luxe .myntra_luxe .luxe_img{
+.myntra_luxe .myntra_luxe .luxe_img {
   height: 249px;
 }
 /* Myntra luxe end */
 
 /* Gifting cards */
-.gifting_cards .gifting_card{
+.gifting_cards .gifting_card {
   display: flex;
   flex-wrap: wrap;
 }
-.gifting_cards .gifting_card .gift_card{
+.gifting_cards .gifting_card .gift_card {
   height: 266px;
 }
 /* Gifting cards end */
