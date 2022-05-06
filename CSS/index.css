@@ -3,11 +3,15 @@
 :root {
   --primary-color: #ff3e6c;
 }
+@font-face{
+  font-family: whitney;
+  src: url("./font/whitneymedium.otf");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "whitney", sans-serif;
 }
 body {
   background-color: #f5f5f6;
@@ -16,8 +20,10 @@ a {
   text-decoration: none;
 }
 .section_title {
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin: 50px 0px 30px 50px;
+  letter-spacing: 5px;
+  color: #3e4152;
 }
 .card-btn {
   padding: 9px;
