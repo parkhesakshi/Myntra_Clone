@@ -15,6 +15,11 @@ body{
 a{
       text-decoration: none;
 }
+.section_title{
+    font-size: 2rem;
+    margin: 50px 0px 30px 50px;
+  
+}
 .card-btn{
     padding: 9px;
     height: 40px;
@@ -99,6 +104,27 @@ a{
     width: 100%;
 }
 /* Hero End */
+
+/* Deal of the day */
+.deal_of_the_day{
+    display: flex;
+    flex-direction: column;
+    width: 100;
+}
+.deal_of_the_day .cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-self: stretch;
+}
+.deal_of_the_day .cards .image{
+    flex-direction: column;
+    flex: 1 1 0; 
+    display: flex;
+    flex-flow: column nowrap;
+}
+/* Deal of the day end */
 
 /* Prodcuts */
 #products{
