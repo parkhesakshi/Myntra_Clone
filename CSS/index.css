@@ -103,6 +103,7 @@ a {
 /* Hide the images by default */
 .mySlides {
   display: none;
+
 }
 .dot {
   cursor: pointer;
