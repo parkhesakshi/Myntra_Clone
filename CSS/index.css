@@ -10,11 +10,7 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: linear-gradient(
-    90deg,
-    rgba(247, 236, 238, 1) 37%,
-    rgba(253, 239, 232, 1) 57%
-  );
+  background-color: #f5f5f6;
 }
 a {
   text-decoration: none;
@@ -76,12 +72,12 @@ a {
 }
 #header .header_link a {
   color: black;
-  font-size: 1.1rem;
+  font-size: .9rem;
   padding: 15px;
   transition: all 0.3s;
 }
 #header .header_link a:hover {
-  border-bottom: 4px solid maroon;
+  border-bottom: 2px solid maroon;
 }
 #header .header_list li input {
   padding: 10px 10px 10px 40px;
@@ -125,6 +121,37 @@ a {
   height: 190px;
 }
 /* Deal of the day end */
+
+/* Categories to bag */
+.categories_to_bag .categories{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.categories_to_bag .categories .categories_img{
+  height: 230px;
+}
+/* Categories to bag end */
+
+/* Myntra luxe */
+.myntra_luxe .myntra_luxe{
+  display: flex;
+  flex-wrap: wrap;
+}
+.myntra_luxe .myntra_luxe .luxe_img{
+  height: 249px;
+}
+/* Myntra luxe end */
+
+/* Gifting cards */
+.gifting_cards .gifting_card{
+  display: flex;
+  flex-wrap: wrap;
+}
+.gifting_cards .gifting_card .gift_card{
+  height: 266px;
+}
+/* Gifting cards end */
 
 /* Prodcuts */
 #products {
