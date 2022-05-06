@@ -1,7 +1,7 @@
 let slideIndex = 1;
 let autoslideIndex = 0;
 showSlides(slideIndex);
-// autoshowSlides();
+autoshowSlides();
 
 // Thumbnail image controls
 function currentSlide(n) {
